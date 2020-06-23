@@ -111,6 +111,42 @@ Depending on the browser you can update the page without using the cache with "C
 
 ### Save image
 * Image quality: The higher the quality, the better the image quality, but the larger the image size.
+### Save image (Screenshot button)
+* Settings:
+1. Image quality: The higher the quality, the better the image quality, but the larger the image size.
+2. White Border: Setting NO will remove the extra white space around the grid.
+* Options:
+1. Open in new window: Opens the image in the new TAB
+2. Download: .png image will be downloaded
+3. Cancel: close the window
+
+### Share
+* URL for editing
+1. Complete creating puzzle in Edit mode "Problem".
+2. If you need to save your puzzle creation progress and come back later to edit then click on this button
+
+* URL for solving
+1. Complete creating puzzle in Edit mode "Problem".
+2. If you want to share your puzzle for others to solve then click on this button
+
+* URL for solving with Solution
+1. Complete creating puzzle in Edit mode "Problem".
+2. Select Edit mode "Solution" and complete the solution.
+3. If you want to share your puzzle for others to solve with the ability to verify the solution then click on "Extra options" button. A new small window will appear.
+4. Click on "Generate URL with answer check"
+5. Click anywhere on the screen outside the small window.
+
+* Options
+1. Copy: copies the URL to the clipboard
+2. Download: downloads a .txt file with the url
+3. Open: opens a new TAB with the same url
+4. URL_short:
+	1. First create an URL using one of the three methods described above.
+	2. Click on "Copy".
+	3. Click on "URL_short" (It will open a new TAB).
+	4. Paste the URL (CTRL + V on windows).
+	5. Click "Shorten"
+4. Cancel: close the window
 
 ## History
 * 2020/01/05 ver2.12 Adjusted mouse judgment.
