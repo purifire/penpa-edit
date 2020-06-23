@@ -83,7 +83,7 @@ class Puzzle{
       "qa":"pu_q",
       "grid":["1","2","1"],//grid,lattice,out
       "pu_q":{"edit_mode":"surface",
-              "surface":["",1],
+              "surface":["",2],
               "line":["1",3],
               "lineE":["1",2],
               "wall":["",3],
