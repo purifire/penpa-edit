@@ -40,7 +40,8 @@ h3 {
   padding-bottom:10px;
 }
 
-#tb_undo, #tb_redo {
+#tb_undo, 
+#tb_redo {
   color: #ccc;
 }
 
@@ -48,7 +49,8 @@ h3 {
   display: inline-block;
   padding: 2px 5px;
   text-decoration: none;
-  background: #fff;/*ボタン色*/
+  background: #fff;
+ /*ボタン色*/
   color: #000;
   border-radius: 4px;
 }
@@ -70,7 +72,8 @@ h3 {
   font-size: 12px;
 }
 
-#sub_txt, #style_txt {
+#sub_txt, 
+#style_txt {
   font-size: 12px;
 }
 
@@ -182,7 +185,8 @@ border-radius: 3px;
 }
 
 input[type=radio] {
-display: none; /* ラジオボタンを非表示にする */
+display: none; 
+ /* ラジオボタンを非表示にする */
 }
 
 input[type="radio"]:checked + label {
@@ -196,14 +200,18 @@ color: #000000;
   background: none;
   padding-left:10px;
 }
-#panel_button,#edge_button{
+
+#panel_button,
+#edge_button{
   width: 25px;
   border:1px solid #ccc;
   background: none;
   margin-left:0px;
   border-radius: 1px;
 }
-#panel_button:hover,#edge_button:hover{
+
+#panel_button:hover,
+#edge_button:hover{
   background: #ccc;
 }
 
@@ -223,6 +231,7 @@ color: #000000;
   position: relative;
   list-style: none;
 }
+
 .nav li span {
   display: inline-block;
   margin-left: 0px;
@@ -241,14 +250,18 @@ color: #000000;
   border-radius: 3px;
   }
 
-.nav > li:hover > span {/*layer-1*/
+.nav > li:hover > span {
+ /*layer-1*/
   color: black;
   background: #cccccc;
 }
-.nav > li li:hover > span {/*layer-2*/
+
+.nav > li li:hover > span {
+ /*layer-2*/
   color: black;
   background: #cccccc;
 }
+
 .nav li ul {
   position: absolute;
   top: 27px;
@@ -256,12 +269,14 @@ color: #000000;
   width:0px;
   height:0px;
 }
+
 .nav li ul li {
   overflow: hidden;
   height: 0px;
   left: 0px;
   width: 80px;
 }
+
 .nav li ul li span {
   display: inline-block;
   margin-left: 0px;
@@ -279,17 +294,21 @@ color: #000000;
   border: 1px solid #1e50a2;
   border-radius: 0px;
 }
+
 .nav li:hover > ul > li {
   overflow: visible;
   height: 27px;
   left: 10px;
   top: 0px;
 }
+
   .nav li ul li ul {
     top: 0px;
     left: 71px;
   }
-  .nav li ul li ul:before {/*layer-2▷*/
+
+  .nav li ul li ul:before {
+   /*layer-2▷*/
     position: absolute;
     content: "";
     top: 9px;
@@ -312,10 +331,13 @@ color: #000000;
     border:none;
     background: none;
   }
+
   .nav li.symbolmode_display span.symmode_content{
     margin-left: -10px;
   }
-  .nav > li.symbolmode_display:hover > span {/*layer-1*/
+
+  .nav > li.symbolmode_display:hover > span {
+   /*layer-1*/
     color: black;
     background: none;
   }
@@ -390,6 +412,7 @@ color: #000000;
     width: 100%;
     height: 100%;
   }
+
   .panel_menu li {
     border-right: 1px solid #fff;
     list-style: none;
@@ -398,6 +421,7 @@ color: #000000;
     width: 100%;
     height: 100%;
   }
+
   .panel_menu li:last-child {
     border-right: 0;
   }
@@ -420,6 +444,7 @@ color: #000000;
     width: 100%;
     height: 100%;
   }
+
   .panel_menu_select li {
     border-left: 1px solid #fff;
     border-top: 1px solid #fff;
@@ -638,13 +663,16 @@ color: #000000;
     text-align: center;
     margin-left: 40px;
 }
+
 #modal-sizeA{
     text-align: center;
     margin-left: 40px;
 }
+
 #modal-spaceud{
     text-align: center;
 }
+
 #modal-spacelr{
     text-align: center;
 }
@@ -668,6 +696,7 @@ color: #000000;
   -moz-user-select    : none;
   -webkit-user-select : none;
 }
+
 @media screen and (max-device-width: 1024px) {
 #menupanel {
   height   : 1.8em;
@@ -684,20 +713,24 @@ color: #000000;
   list-style : none;
   cursor     : pointer;
 }
+
 #menupanel > li:hover {
   background : #ffcccc;
 }
+
 #menupanel > li > span {
   color       : blue;
   line-height : 1.5;
   font-size   : 110%;
   vertical-align : middle;
 }
+
 @media screen and (max-device-width: 1024px) {
 #menupanel > li > span {
   line-height : 1.8;
 }
 }
+
 #menupanel > li:hover > span {
   color : maroon;
   font-weight : 900;
@@ -712,6 +745,7 @@ color: #000000;
 #menupanel > li > menu {
   font-size : 0.9em;
 }
+
 #menupanel menu {
   display  : none;
   position : absolute;
@@ -727,6 +761,7 @@ color: #000000;
   text-align : left;
   cursor     : default;
 }
+
 #menupanel menu[label]:before {
   margin  : 0pt;
   padding : 4pt 8pt 4pt 4pt;
@@ -737,27 +772,51 @@ color: #000000;
 
   text-shadow : 0px 0px 1px black;
 }
+
 #menupanel menu li:first-child {
   border-top-left-radius :3px;
   border-top-right-radius:3px;
 }
+
 #menupanel menu li:last-child {
   border-bottom-left-radius :6px;
   border-bottom-right-radius:6px;
 }
 
 /* level1, level2+ submenus */
-#menupanel menu
-  { left:0px;   top:1.5em;  min-width:132px; z-index:22;}
-@media screen and (max-device-width: 1024px) {
-#menupanel menu { top:2.0em;}
+#menupanel menu  { 
+ left:0px;   
+ top:1.5em;  
+ min-width:132px; 
+ z-index:22;
 }
-#menupanel menu menu[label]
-  { left:120px; top:-1.5em; min-width:80px;  z-index:23;}
-#menupanel menu menu
-  { left:120px; top:-0.2em; min-width:80px;  z-index:23;}
-#menupanel menu menu[label] menu
-  { left:72px;  top:-1.5em; min-width:80px;  z-index:24;}
+
+@media screen and (max-device-width: 1024px) {
+#menupanel menu { 
+ top:2.0em;
+ }
+}
+
+#menupanel menu menu[label]  { 
+   left:120px; 
+   top:-1.5em; 
+   min-width:80px;  
+   z-index:23;
+}
+
+#menupanel menu menu  {
+ left:120px; 
+ top:-0.2em; 
+ min-width:80px;  
+ z-index:23;
+}
+
+#menupanel menu menu[label] menu { 
+ left:72px;  
+ top:-1.5em; 
+ min-width:80px;  
+ z-index:24;
+}
 
 /* submenu items */
 #menupanel menu li {
@@ -772,23 +831,28 @@ color: #000000;
   background : white;
   cursor     : pointer;
 }
+
 @media screen and (max-device-width: 1024px) {
 #menupanel menu li {
   line-height: 1.8;
 }
 }
+
 #menupanel menu li:hover {
   background : #ffcccc;
 }
+
 #menupanel menu li:hover > span {
   font-weight : 900;
   text-decoration : underline;
 }
+
 @media screen and (max-device-width: 1024px) {
 #menupanel menu li + li {
   margin-top:1px;
 }
 }
+
 #menupanel menu hr {
   margin  : 0px;
   padding : 0px;
@@ -796,14 +860,17 @@ color: #000000;
   height  : 3px;
   color   : lime;
 }
+
 @media screen and (max-device-width: 1024px) {
 #menupanel menu hr {
   height  : 4px;
 }
 }
+
 #menupanel menu span {
   white-space: nowrap;
 }
+
 #menupanel menu a {
   color : black;
   text-decoration: none;
@@ -816,10 +883,12 @@ color: #000000;
   color      : gray;
   cursor     : default;
 }
+
 /* (cancel hover, for unsupporting :not(.disabled)) */
 #menupanel menu li.disabled:hover {
   background : #dfdfdf;
 }
+
 #menupanel menu li.disabled:hover > span {
   font-weight : 100;
   text-decoration : none;
@@ -827,16 +896,31 @@ color: #000000;
 
 /* toggle submenu items */
 #menupanel menu li.check > span,
-#menupanel menu li[data-value] > span
-  { font-size:small; color:gray;}
-#menupanel menu li.checked > span
-  { font-size:small; color:black;}
+#menupanel menu li[data-value] > span { 
+ font-size:small; 
+ color:gray;
+}
+
+#menupanel menu li.checked > span { 
+ font-size:small; 
+ color:black;
+}
 
 #menupanel menu li.check > span:before,
-#menupanel menu li[data-value] > span:before
-  { padding:0pt 2pt; color:white; content:"_"; font-size:small;}
-#menupanel menu li.checked > span:before
-  { padding:0pt 2pt; color:black; content:"+"; font-size:small;}
+#menupanel menu li[data-value] > span:before { 
+ padding:0pt 2pt; 
+ color:white; 
+ content:"_"; 
+ font-size:small;
+}
 
-#menu_link li
-  { font-size: 0.9em;}
+#menupanel menu li.checked > span:before { 
+ padding:0pt 2pt; 
+ color:black; 
+ content:"+"; 
+ font-size:small;
+}
+
+#menu_link li { 
+ font-size: 0.9em;
+}
