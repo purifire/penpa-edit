@@ -101,7 +101,7 @@ class Puzzle{
               "lineE":["1",3],
               "wall":["",3],
               "cage":["",10],
-              "number":["1",2],
+              "number":["1",3],
               "symbol":["circle_L",2],
               "special":["thermo",""],
               "board":["",""],
