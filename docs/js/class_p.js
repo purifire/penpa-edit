@@ -83,7 +83,7 @@ class Puzzle{
       "qa":"pu_q",
       "grid":["1","2","1"],//grid,lattice,out
       "pu_q":{"edit_mode":"surface",
-              "surface":["",1],
+              "surface":["",3],
               "line":["1",3],
               "lineE":["1",2],
               "wall":["",3],
@@ -96,7 +96,7 @@ class Puzzle{
               "combi":["battleship",""]
             },
       "pu_a":{"edit_mode":"surface",
-              "surface":["",2],
+              "surface":["",3],
               "line":["1",3],
               "lineE":["1",3],
               "wall":["",3],
