@@ -3334,7 +3334,7 @@ class Puzzle {
             var text = JSON.stringify(this.make_solution());
             if (text === this.solution && this.sol_flag === 0) {
                 setTimeout(() => {
-                    alert("Correct Answer")
+                    alert("You did it!")
                 }, 10)
                 this.sol_flag = 1;
             } else if (text != this.solution && this.sol_flag === 1) { //答えが変わったら改めて判定
